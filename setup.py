@@ -4,7 +4,14 @@ setup(
     name='finetuneai_with_ai',
     version='0.1',
     packages=find_packages(),  
-    install_requires=[], 
+    install_requires=[
+    'accelerate',
+    'peft',
+    'bitsandbytes',
+    'transformers',
+    'trl',
+    'datasets'
+    ], 
     description='A package for fine-tuning LLaMA2 models using AI.',
     author='Hassan Muhammad Sanaullah',
     author_email='scientisthassan@gmail.com',
