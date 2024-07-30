@@ -1,10 +1,8 @@
-import pandas as pd
-import pyarrow.parquet as pq
 import json
 import csv
-from AI.queryAI import askGPT3
+from FinetuneAI_with_AI.AI.queryAI import askGPT3
 import re
-from variables import CODE_OUPUT_PATH
+from FinetuneAI_with_AI.variables import CODE_OUPUT_PATH
 import subprocess
 from os.path import exists
 

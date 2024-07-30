@@ -1,5 +1,5 @@
 import requests
-from AI import url,bearer
+from FinetuneAI_with_AI.AI import url,bearer
 
 def askGPT3(query):
 
