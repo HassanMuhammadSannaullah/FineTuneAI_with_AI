@@ -1,0 +1,6 @@
+*.csv
+*.json
+config.ini
+.venv
+__pycache__/
+DataPreprocessor.py
