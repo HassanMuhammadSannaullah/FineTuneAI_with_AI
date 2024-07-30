@@ -50,7 +50,7 @@ This approach simplifies the entire workflow, making it easier to handle diverse
 
 Before running the code, you need to create and configure a `.ini` file to provide the necessary API settings. This file should be named `config.ini` and placed in the root directory of your project.
 
-Create a file named `config.ini` in the reeot folder with the following content:
+Create a file named `config.ini` in the root folder with the following content:
 
 ```ini
 [API]
